@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02358C34229ADC8100E58D67 /* repos.json in Resources */ = {isa = PBXBuildFile; fileRef = 02387DEE229ABC0300FDE6CC /* repos.json */; };
+		02367907229982FE006126A1 /* ktWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02367906229982FE006126A1 /* ktWebservice.swift */; };
+		02367908229982FE006126A1 /* ktWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02367906229982FE006126A1 /* ktWebservice.swift */; };
+		02367909229982FE006126A1 /* ktWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02367906229982FE006126A1 /* ktWebservice.swift */; };
+		0236790B2299831D006126A1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236790A2299831D006126A1 /* WebService.swift */; };
+		0236790C2299831D006126A1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236790A2299831D006126A1 /* WebService.swift */; };
+		0236790D2299831D006126A1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236790A2299831D006126A1 /* WebService.swift */; };
+		0236791022998E09006126A1 /* ktDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236790F22998E09006126A1 /* ktDataManager.swift */; };
+		0236791122998E09006126A1 /* ktDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236790F22998E09006126A1 /* ktDataManager.swift */; };
+		0236791222998E09006126A1 /* ktDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236790F22998E09006126A1 /* ktDataManager.swift */; };
+		0236791422998E1E006126A1 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236791322998E1E006126A1 /* DataTypes.swift */; };
+		0236791522998E1E006126A1 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236791322998E1E006126A1 /* DataTypes.swift */; };
+		0236791622998E1E006126A1 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236791322998E1E006126A1 /* DataTypes.swift */; };
+		02387DED229AAFBC00FDE6CC /* ktGithubViewverIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02387DEC229AAFBC00FDE6CC /* ktGithubViewverIntegrationTests.swift */; };
+		02387DEF229ABC0300FDE6CC /* repos.json in Resources */ = {isa = PBXBuildFile; fileRef = 02387DEE229ABC0300FDE6CC /* repos.json */; };
+		02387DF3229ABE0800FDE6CC /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02387DF2229ABE0700FDE6CC /* AppDependency.swift */; };
+		02387DF4229ABE0800FDE6CC /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02387DF2229ABE0700FDE6CC /* AppDependency.swift */; };
+		02387DF5229ABE0800FDE6CC /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02387DF2229ABE0700FDE6CC /* AppDependency.swift */; };
 		02D6E3E6229473A600F7854F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6E3E5229473A600F7854F /* AppDelegate.swift */; };
 		02D6E3E8229473A600F7854F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6E3E7229473A600F7854F /* ViewController.swift */; };
 		02D6E3EB229473A600F7854F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D6E3E9229473A600F7854F /* Main.storyboard */; };
@@ -34,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02367906229982FE006126A1 /* ktWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktWebservice.swift; sourceTree = "<group>"; };
+		0236790A2299831D006126A1 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		0236790F22998E09006126A1 /* ktDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktDataManager.swift; sourceTree = "<group>"; };
+		0236791322998E1E006126A1 /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
+		02387DEC229AAFBC00FDE6CC /* ktGithubViewverIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktGithubViewverIntegrationTests.swift; sourceTree = "<group>"; };
+		02387DEE229ABC0300FDE6CC /* repos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = repos.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		02387DF2229ABE0700FDE6CC /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
 		02D6E3E2229473A600F7854F /* ktGithubViewver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ktGithubViewver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D6E3E5229473A600F7854F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D6E3E7229473A600F7854F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +99,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02367905229982D5006126A1 /* API Handling */ = {
+			isa = PBXGroup;
+			children = (
+				02367906229982FE006126A1 /* ktWebservice.swift */,
+				0236790A2299831D006126A1 /* WebService.swift */,
+			);
+			path = "API Handling";
+			sourceTree = "<group>";
+		};
+		0236790E22998DCF006126A1 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0236790F22998E09006126A1 /* ktDataManager.swift */,
+				0236791322998E1E006126A1 /* DataTypes.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		02387DF1229ABDDA00FDE6CC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				02387DF2229ABE0700FDE6CC /* AppDependency.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		02D6E3D9229473A600F7854F = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +148,9 @@
 		02D6E3E4229473A600F7854F /* ktGithubViewver */ = {
 			isa = PBXGroup;
 			children = (
+				02387DF1229ABDDA00FDE6CC /* New Group */,
+				0236790E22998DCF006126A1 /* DataManager */,
+				02367905229982D5006126A1 /* API Handling */,
 				02D6E3E5229473A600F7854F /* AppDelegate.swift */,
 				02D6E3E7229473A600F7854F /* ViewController.swift */,
 				02D6E3E9229473A600F7854F /* Main.storyboard */,
@@ -112,6 +166,8 @@
 			children = (
 				02D6E3FA229473B500F7854F /* ktGithubViewverTests.swift */,
 				02D6E3FC229473B500F7854F /* Info.plist */,
+				02387DEC229AAFBC00FDE6CC /* ktGithubViewverIntegrationTests.swift */,
+				02387DEE229ABC0300FDE6CC /* repos.json */,
 			);
 			path = ktGithubViewverTests;
 			sourceTree = "<group>";
@@ -232,6 +288,7 @@
 				02D6E3F0229473B400F7854F /* LaunchScreen.storyboard in Resources */,
 				02D6E3ED229473B400F7854F /* Assets.xcassets in Resources */,
 				02D6E3EB229473A600F7854F /* Main.storyboard in Resources */,
+				02358C34229ADC8100E58D67 /* repos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02387DEF229ABC0300FDE6CC /* repos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0236791022998E09006126A1 /* ktDataManager.swift in Sources */,
 				02D6E3E8229473A600F7854F /* ViewController.swift in Sources */,
 				02D6E3E6229473A600F7854F /* AppDelegate.swift in Sources */,
+				0236791422998E1E006126A1 /* DataTypes.swift in Sources */,
+				0236790B2299831D006126A1 /* WebService.swift in Sources */,
+				02367907229982FE006126A1 /* ktWebservice.swift in Sources */,
+				02387DF3229ABE0800FDE6CC /* AppDependency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0236790C2299831D006126A1 /* WebService.swift in Sources */,
+				02387DED229AAFBC00FDE6CC /* ktGithubViewverIntegrationTests.swift in Sources */,
 				02D6E3FB229473B500F7854F /* ktGithubViewverTests.swift in Sources */,
+				0236791522998E1E006126A1 /* DataTypes.swift in Sources */,
+				0236791122998E09006126A1 /* ktDataManager.swift in Sources */,
+				02367908229982FE006126A1 /* ktWebservice.swift in Sources */,
+				02387DF4229ABE0800FDE6CC /* AppDependency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02387DF5229ABE0800FDE6CC /* AppDependency.swift in Sources */,
+				0236790D2299831D006126A1 /* WebService.swift in Sources */,
 				02D6E406229473B500F7854F /* ktGithubViewverUITests.swift in Sources */,
+				0236791622998E1E006126A1 /* DataTypes.swift in Sources */,
+				0236791222998E09006126A1 /* ktDataManager.swift in Sources */,
+				02367909229982FE006126A1 /* ktWebservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
