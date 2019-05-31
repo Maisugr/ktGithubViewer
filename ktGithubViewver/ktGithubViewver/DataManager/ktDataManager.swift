@@ -27,7 +27,7 @@ protocol DataManager  {
 }
 
 
-class NPDataManager : DataManager {
+class ktDataManager : DataManager {
     
     //MARK: - Injected Dependency Protocol
     

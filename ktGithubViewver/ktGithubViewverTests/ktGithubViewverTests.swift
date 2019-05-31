@@ -32,7 +32,7 @@ final class TestWebService : WebService {
 
 class ktGithubViewverTests: XCTestCase {
 
-    private let dataManager = NPDataManager()
+    private let dataManager = ktDataManager()
     
     private var dependencies : AppDependency?
     

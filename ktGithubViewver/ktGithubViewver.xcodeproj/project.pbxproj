@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0231CC5622A078AD00F39477 /* ktCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231CC5522A078AD00F39477 /* ktCollectionViewCell.swift */; };
+		0231CC5822A07DDE00F39477 /* ktViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231CC5722A07DDE00F39477 /* ktViewController.swift */; };
 		02358C34229ADC8100E58D67 /* repos.json in Resources */ = {isa = PBXBuildFile; fileRef = 02387DEE229ABC0300FDE6CC /* repos.json */; };
 		02367907229982FE006126A1 /* ktWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02367906229982FE006126A1 /* ktWebservice.swift */; };
 		02367908229982FE006126A1 /* ktWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02367906229982FE006126A1 /* ktWebservice.swift */; };
@@ -25,9 +27,12 @@
 		02387DF3229ABE0800FDE6CC /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02387DF2229ABE0700FDE6CC /* AppDependency.swift */; };
 		02387DF4229ABE0800FDE6CC /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02387DF2229ABE0700FDE6CC /* AppDependency.swift */; };
 		02387DF5229ABE0800FDE6CC /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02387DF2229ABE0700FDE6CC /* AppDependency.swift */; };
+		0263C8BD229EDEBF00CEFDF8 /* ktAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0263C8BC229EDEBF00CEFDF8 /* ktAppCoordinator.swift */; };
+		0263C8BF229EE0A400CEFDF8 /* ktViewCoodrinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0263C8BE229EE0A400CEFDF8 /* ktViewCoodrinator.swift */; };
+		02679CDA22A0942A00242261 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02679CD922A0942A00242261 /* UIColor+Additions.swift */; };
+		02679CDC22A0A64D00242261 /* ktDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02679CDB22A0A64D00242261 /* ktDetailCoordinator.swift */; };
 		02D6E3E6229473A600F7854F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6E3E5229473A600F7854F /* AppDelegate.swift */; };
-		02D6E3E8229473A600F7854F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6E3E7229473A600F7854F /* ViewController.swift */; };
-		02D6E3EB229473A600F7854F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D6E3E9229473A600F7854F /* Main.storyboard */; };
+		02D6E3E8229473A600F7854F /* ktContributorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6E3E7229473A600F7854F /* ktContributorsViewController.swift */; };
 		02D6E3ED229473B400F7854F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D6E3EC229473B400F7854F /* Assets.xcassets */; };
 		02D6E3F0229473B400F7854F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D6E3EE229473B400F7854F /* LaunchScreen.storyboard */; };
 		02D6E3FB229473B500F7854F /* ktGithubViewverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6E3FA229473B500F7854F /* ktGithubViewverTests.swift */; };
@@ -52,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0231CC5522A078AD00F39477 /* ktCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ktCollectionViewCell.swift; sourceTree = "<group>"; };
+		0231CC5722A07DDE00F39477 /* ktViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktViewController.swift; sourceTree = "<group>"; };
 		02367906229982FE006126A1 /* ktWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktWebservice.swift; sourceTree = "<group>"; };
 		0236790A2299831D006126A1 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		0236790F22998E09006126A1 /* ktDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktDataManager.swift; sourceTree = "<group>"; };
@@ -59,10 +66,13 @@
 		02387DEC229AAFBC00FDE6CC /* ktGithubViewverIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktGithubViewverIntegrationTests.swift; sourceTree = "<group>"; };
 		02387DEE229ABC0300FDE6CC /* repos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = repos.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		02387DF2229ABE0700FDE6CC /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		0263C8BC229EDEBF00CEFDF8 /* ktAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktAppCoordinator.swift; sourceTree = "<group>"; };
+		0263C8BE229EE0A400CEFDF8 /* ktViewCoodrinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktViewCoodrinator.swift; sourceTree = "<group>"; };
+		02679CD922A0942A00242261 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		02679CDB22A0A64D00242261 /* ktDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktDetailCoordinator.swift; sourceTree = "<group>"; };
 		02D6E3E2229473A600F7854F /* ktGithubViewver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ktGithubViewver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D6E3E5229473A600F7854F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02D6E3E7229473A600F7854F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02D6E3EA229473A600F7854F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02D6E3E7229473A600F7854F /* ktContributorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktContributorsViewController.swift; sourceTree = "<group>"; };
 		02D6E3EC229473B400F7854F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02D6E3EF229473B400F7854F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02D6E3F1229473B400F7854F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,12 +127,40 @@
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		02387DF1229ABDDA00FDE6CC /* New Group */ = {
+		02387DF1229ABDDA00FDE6CC /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
 				02387DF2229ABE0700FDE6CC /* AppDependency.swift */,
 			);
-			path = "New Group";
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		02679CDD22A0A65700242261 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				02679CDB22A0A64D00242261 /* ktDetailCoordinator.swift */,
+				0263C8BE229EE0A400CEFDF8 /* ktViewCoodrinator.swift */,
+				0263C8BC229EDEBF00CEFDF8 /* ktAppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		02C3FC0422A0A70B00520E6B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0231CC5522A078AD00F39477 /* ktCollectionViewCell.swift */,
+				02D6E3E7229473A600F7854F /* ktContributorsViewController.swift */,
+				0231CC5722A07DDE00F39477 /* ktViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		02C3FC0522A0A71800520E6B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				02679CD922A0942A00242261 /* UIColor+Additions.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		02D6E3D9229473A600F7854F = {
@@ -148,12 +186,13 @@
 		02D6E3E4229473A600F7854F /* ktGithubViewver */ = {
 			isa = PBXGroup;
 			children = (
-				02387DF1229ABDDA00FDE6CC /* New Group */,
+				02C3FC0522A0A71800520E6B /* Constants */,
+				02C3FC0422A0A70B00520E6B /* Controllers */,
+				02679CDD22A0A65700242261 /* Coordinators */,
+				02387DF1229ABDDA00FDE6CC /* Dependency */,
 				0236790E22998DCF006126A1 /* DataManager */,
 				02367905229982D5006126A1 /* API Handling */,
 				02D6E3E5229473A600F7854F /* AppDelegate.swift */,
-				02D6E3E7229473A600F7854F /* ViewController.swift */,
-				02D6E3E9229473A600F7854F /* Main.storyboard */,
 				02D6E3EC229473B400F7854F /* Assets.xcassets */,
 				02D6E3EE229473B400F7854F /* LaunchScreen.storyboard */,
 				02D6E3F1229473B400F7854F /* Info.plist */,
@@ -287,7 +326,6 @@
 			files = (
 				02D6E3F0229473B400F7854F /* LaunchScreen.storyboard in Resources */,
 				02D6E3ED229473B400F7854F /* Assets.xcassets in Resources */,
-				02D6E3EB229473A600F7854F /* Main.storyboard in Resources */,
 				02358C34229ADC8100E58D67 /* repos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,12 +353,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0236791022998E09006126A1 /* ktDataManager.swift in Sources */,
-				02D6E3E8229473A600F7854F /* ViewController.swift in Sources */,
+				02D6E3E8229473A600F7854F /* ktContributorsViewController.swift in Sources */,
 				02D6E3E6229473A600F7854F /* AppDelegate.swift in Sources */,
 				0236791422998E1E006126A1 /* DataTypes.swift in Sources */,
+				0231CC5822A07DDE00F39477 /* ktViewController.swift in Sources */,
+				02679CDA22A0942A00242261 /* UIColor+Additions.swift in Sources */,
 				0236790B2299831D006126A1 /* WebService.swift in Sources */,
+				0263C8BD229EDEBF00CEFDF8 /* ktAppCoordinator.swift in Sources */,
 				02367907229982FE006126A1 /* ktWebservice.swift in Sources */,
+				0231CC5622A078AD00F39477 /* ktCollectionViewCell.swift in Sources */,
 				02387DF3229ABE0800FDE6CC /* AppDependency.swift in Sources */,
+				02679CDC22A0A64D00242261 /* ktDetailCoordinator.swift in Sources */,
+				0263C8BF229EE0A400CEFDF8 /* ktViewCoodrinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,14 +411,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		02D6E3E9229473A600F7854F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02D6E3EA229473A600F7854F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		02D6E3EE229473B400F7854F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -24,6 +24,8 @@ class ktGithubViewverIntegrationTests: XCTestCase {
         let expectation = XCTestExpectation(description: "")
         ktWebService.shared.call(path: .Repos) { (json, error) in
             let obj = try? JSONSerialization.jsonObject(with: json!, options: [.allowFragments])
+            XCTAssertNotNil(obj, "No valid json was donwloaded.")
+
             XCTAssertNotNil(json, "No data was downloaded.")
             expectation.fulfill()
         }
